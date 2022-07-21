@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './slap-l.css'
+import "./slap-l.css";
 
 const SlapL = (props) => {
   return (
     <div className={`slap-l-slap-l ${props.rootClassName} `}>
       <div className="slap-l-container">
         <h1 className="slap-l-text">
-          Llevando el metaverso a cada rincon de latinoamerica
+          Llevando el metaverso a cada rincón de latinoamérica
         </h1>
         <span className="slap-l-text1">{props.header}</span>
         <div className="slap-l-container1">
@@ -39,17 +39,17 @@ const SlapL = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 SlapL.defaultProps = {
-  pastedImage_alt: 'pastedImage',
-  header: 'Escribenos para empesar a crear un futuro negocio en el metaverso.',
-  text: 'Mándanos un mensaje',
-  pastedImage_src: '/playground_assets/pastedimage-4qg5-200h.png',
-  button: 'WhatsApp',
-  rootClassName: '',
-}
+  pastedImage_alt: "pastedImage",
+  header: "Escribenos para empezar a crear un futuro negocio en el metaverso.",
+  text: "Mándanos un mensaje",
+  pastedImage_src: "/playground_assets/pastedimage-4qg5-200h.png",
+  button: "WhatsApp",
+  rootClassName: ""
+};
 
 SlapL.propTypes = {
   pastedImage_alt: PropTypes.string,
@@ -57,7 +57,7 @@ SlapL.propTypes = {
   text: PropTypes.string,
   pastedImage_src: PropTypes.string,
   button: PropTypes.string,
-  rootClassName: PropTypes.string,
-}
+  rootClassName: PropTypes.string
+};
 
-export default SlapL
+export default SlapL;

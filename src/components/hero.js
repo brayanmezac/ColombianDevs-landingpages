@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './hero.css'
+import "./hero.css";
 
 const Hero = (props) => {
   return (
@@ -35,19 +35,20 @@ const Hero = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Hero.defaultProps = {
-  pastedImage_alt: 'pastedImage',
+  pastedImage_alt: "pastedImage",
   heading:
-    'Realidad aumentada, realidad virtual y realidad mixta para tu negocio',
-  button: 'Probar AR',
-  pastedImage_src: '/playground_assets/pastedimage-gqrsg-500w.png',
-  Text: 'Masifica la tasa de conversión de lead de tu emprendimiento utilisando lo ultimo en tecnologia e inovacion',
-  button1: 'Probar VR',
-  rootClassName: '',
-}
+    "Realidad aumentada, realidad virtual y realidad mixta para tu negocio",
+  button: "Probar AR",
+  pastedImage_src: "/playground_assets/pastedimage-gqrsg-500w.png",
+  Text:
+    "Masifica la tasa de conversión de lead de tu emprendimiento utilizando lo ultimo en tecnologia e innovacion",
+  button1: "Probar VR",
+  rootClassName: ""
+};
 
 Hero.propTypes = {
   pastedImage_alt: PropTypes.string,
@@ -56,7 +57,7 @@ Hero.propTypes = {
   pastedImage_src: PropTypes.string,
   Text: PropTypes.string,
   button1: PropTypes.string,
-  rootClassName: PropTypes.string,
-}
+  rootClassName: PropTypes.string
+};
 
-export default Hero
+export default Hero;

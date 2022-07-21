@@ -1,0 +1,103 @@
+.features-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  flex-direction: column;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 43, 255, 0.22) 50%,
+    rgba(0, 40, 234, 0) 100%
+  );
+}
+model-viewer {
+  width: 100%;
+  height: 100%;
+  center;--progress-bar-height:0px;
+}
+.features-text {
+  color: var(--dl-color-primary-devsazul);
+  font-size: 3rem;
+  font-style: normal;
+  font-family: Manrope;
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.features-separator {
+  width: 100px;
+  height: 2px;
+  background-color: var(--dl-color-primary-700);
+}
+.features-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.features-container1 {
+  flex: 0 0 auto;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-fourunits);
+}
+.features-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.features-root-class-name {
+  background-image: linear-gradient(
+    315deg,
+    rgba(0, 251, 241, 0.25) 1%,
+    rgba(0, 43, 255, 0.22) 52%,
+    rgba(0, 40, 234, 0) 97%
+  );
+}
+@media (max-width: 991px) {
+  .features-features {
+    align-items: center;
+  }
+  .features-container {
+    flex-direction: column;
+  }
+  .features-container1 {
+    width: 300px;
+    height: 300px;
+    margin-top: var(--dl-space-space-twounits);
+  }
+}
+@media (max-width: 767px) {
+  .features-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .features-text {
+    text-align: center;
+  }
+  .features-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 479px) {
+  .features-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .features-container1 {
+    width: 250px;
+    height: 250px;
+    margin-top: var(--dl-space-space-twounits);
+    margin-right: 0px;
+  }
+  .features-container2 {
+    grid-template-columns: 1fr;
+  }
+}

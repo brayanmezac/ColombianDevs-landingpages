@@ -1,0 +1,88 @@
+.slap-r-slap-r {
+  display: flex;
+  z-index: 100;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.slap-r-persona-vr {
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.slap-r-image {
+  flex: 1;
+  width: 522px;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.slap-r-root-class-name {
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .slap-r-slap-r {
+    align-self: flex-start;
+  }
+  .slap-r-persona-vr {
+    width: auto;
+    height: 403px;
+    position: static;
+    align-self: center;
+  }
+  .slap-r-image {
+    width: 464px;
+    display: none;
+    opacity: 0;
+  }
+  .slap-r-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .slap-r-slap-r {
+    width: 609px;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
+  .slap-r-persona-vr {
+    left: 0px;
+    right: 0px;
+    position: static;
+  }
+  .slap-r-image {
+    display: none;
+  }
+  .slap-r-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .slap-r-slap-r {
+    width: auto;
+    align-self: flex-start;
+  }
+  .slap-r-persona-vr {
+    flex: 1;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 444px;
+    position: static;
+    align-self: center;
+    margin-bottom: 0px;
+  }
+  .slap-r-image {
+    width: 100%;
+    display: none;
+    align-self: center;
+  }
+  .slap-r-root-class-name {
+    align-self: center;
+  }
+}

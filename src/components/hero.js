@@ -17,7 +17,7 @@ const Hero = (props) => {
         <span className="hero-text1">{props.Text}</span>
         <div className="hero-btn-group">
           <a
-            href="http://heart.colombiandevs.com/"
+            href="https://csb-oigj3u.netlify.app/"
             target="_blank"
             rel="noreferrer noopener"
             className="hero-link button"
